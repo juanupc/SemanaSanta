@@ -1,0 +1,43 @@
+.VictoryScreen {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VictoryScreen_box {
+  border: solid 4px royalblue;
+  color: #ffeb13;
+  width: 60%;
+  height: 50vh;
+  background-color: #000000;
+}
+
+.VictoryScreen_title {
+  font-size: 3rem;
+}
+
+.VictoryScreen_player {
+  font-size: 3rem;
+  margin: 3rem auto;
+  font-weight: 900;
+}
+
+.VictoryScreen_Again {
+  background-color: royalblue;
+  color: #ffeb13;
+  border: none;
+  width: 40%;
+  height: 6vh;
+  border-radius: 15px;
+  font-size: 2rem;
+  font-family: "Silkscreen", cursive;
+}
+
+.VictoryScreen_Again:hover {
+  background-color: royalblue;
+  color: #a1950f;
+}
